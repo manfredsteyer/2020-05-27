@@ -8,6 +8,13 @@ export const APP_ROUTES: Routes = [
         pathMatch: 'full'
     },
     {
+        // flight-booking/flight-search
+        // flight-booking/passenger-search
+        path: 'flight-booking',
+        loadChildren: () => import('./flight-booking/flight-booking.module')
+                                .then(m => m.FlightBookingModule)
+    },
+    {
         path: 'home',
         component: HomeComponent
     },

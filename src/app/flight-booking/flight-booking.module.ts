@@ -12,6 +12,7 @@ import { FlightEditComponent } from './flight-edit/flight-edit.component';
 import { PassengerSearchComponent } from './passenger-search/passenger-search.component';
 import { RouterModule } from '@angular/router';
 import { FLIGHT_BOOKING_ROUTES } from './flight-booking.routes';
+import { FlightBookingComponent } from './flight-booking.component';
 
 @NgModule({
   imports: [
@@ -23,6 +24,7 @@ import { FLIGHT_BOOKING_ROUTES } from './flight-booking.routes';
     FlightSearchComponent,
     FlightCardComponent,
     FlightEditComponent,
+    FlightBookingComponent,
     PassengerSearchComponent
   ],
   providers: [
