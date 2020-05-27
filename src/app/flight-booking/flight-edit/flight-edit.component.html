@@ -1,0 +1,9 @@
+<h1>Flight Edit</h1>
+
+<form [formGroup]="form">
+    <input formControlName="id">
+    <input formControlName="from">
+    <input formControlName="to">
+    <input formControlName="date">
+    <button (click)="save()">Save!</button>
+</form>
